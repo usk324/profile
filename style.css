@@ -1,0 +1,78 @@
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 300;
+  background-color: #068D9D;
+  color: hsl(240, 7%, 3%);
+}
+
+h1, h2 {
+  font-family: 'Raleway', sans-serif;
+  color: #3f4040;
+}
+
+h1 {
+  font-size: 36px;
+  letter-spacing: 1px;
+}
+
+a {
+  color: gray;
+  display: inline-block;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
+p {
+  letter-spacing: 1px;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 250px;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.text_box {
+  background: #f6f8f8d4;                         /* White background */
+  padding: 30px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  text-align: center;
+  margin: 20px 0;
+}
+
+.list-inline a {
+  font-size: 32px;
+}
+
+i {
+  color :gray;
+}
+
+i:hover {
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.size-of-icon{
+  width: 30px;
+}
