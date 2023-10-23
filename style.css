@@ -1,7 +1,31 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+
+
 body {
   font-family: 'Noto Sans JP', sans-serif;
   font-weight: 300;
-  background-color: #068D9D;
+  background-image: url("images/background.webp");
   color: hsl(240, 7%, 3%);
 }
 
@@ -11,9 +35,16 @@ h1, h2 {
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 40px;
   letter-spacing: 1px;
 }
+
+
+h2 {
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
 
 a {
   color: gray;
@@ -26,6 +57,7 @@ a:hover {
 }
 
 p {
+  font-size: 30px;
   letter-spacing: 1px;
 }
 
@@ -47,7 +79,10 @@ p {
   text-align: center;
   margin: 20px 0;
 }
-
+/*
+.list-inline{
+  display: flex;
+} */
 .list-inline a {
   font-size: 32px;
 }
@@ -75,4 +110,19 @@ ul {
 
 .size-of-icon{
   width: 30px;
+}
+
+.picture-container{
+  display: flex;
+  padding: 0px 20px;
+  width : 100%;
+  flex-wrap: wrap;
+}
+
+.picture{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  margin: 8px
 }
